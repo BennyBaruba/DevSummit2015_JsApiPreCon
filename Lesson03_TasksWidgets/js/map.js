@@ -10,7 +10,7 @@ require(["esri/map",
         "esri/layers/FeatureLayer",
         "esri/InfoTemplate",
 
-                        "dojo/parser",
+        "dojo/parser",
         "dojo/domReady!"],
 
     function (Map,
@@ -22,7 +22,7 @@ require(["esri/map",
               InfoTemplate,
               parser) {
         parser.parse();
-//            var setExtent = new Extent(-10403509, 5993812, -9933880, 6210894,
+//                  var setExtent = new Extent(-10403509, 5993812, -9933880, 6210894,
 //                    new SpatialReference({wkid: 102100}));
 
         map = new Map("mapDiv", {
